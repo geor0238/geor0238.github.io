@@ -1,3 +1,6 @@
+<
+
+
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18pt;
@@ -5,4 +8,8 @@ body {
 
 .site-title {
     color: rebeccapurple;
+}
+
+#my-image {
+    box-shadow: 0 0 2px 1px black;
 }
