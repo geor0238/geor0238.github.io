@@ -1,6 +1,6 @@
 
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18pt;
 }
 
@@ -14,4 +14,12 @@ body {
 
 .listA {
     list-style-type: square;
+}
+
+.listB {
+    content: "☆";
+}
+
+nav li:nth-child(odd) {
+    background: rgb(161, 119, 198);
 }
