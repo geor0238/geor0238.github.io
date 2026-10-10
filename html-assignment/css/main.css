@@ -1,6 +1,6 @@
 
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 18pt;
 }
 
@@ -17,9 +17,31 @@ body {
 }
 
 .listB {
-    content: "☆";
+    list-style: none;
 }
 
-nav li:nth-child(odd) {
-    background: rgb(161, 119, 198);
+.listB li::before {
+    content: "☆";
+    margin-right: 6px;
+}
+
+.listA li:nth-child(odd) {
+    background: #f0e6ff;
+}
+
+nav a {
+    background-color: #f0e6ff;
+    border: 2px solid rebeccapurple;
+    border-radius: 10px;
+    padding: 5px 15px;
+    color: #663399;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+}
+
+nav a:hover {
+    background-color: #d9c2f0;
+    border-color: #9966cc;
+    color: rebeccapurple;
+    transform: scale(1.05);
 }
