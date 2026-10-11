@@ -4,8 +4,11 @@ body {
     background: #e7e7fc;
 }
 
-.site-title {
+.site-title, .music-divider, .paragraphlink, nav a:hover {
     color: rebeccapurple;
+}
+
+.site-title {
     animation: float 2s ease-in-out infinite;
 }
 
@@ -23,7 +26,6 @@ hr {
 }
 
 .paragraphlink {
-    color: rebeccapurple;
     text-decoration: none;
 }
 
@@ -59,14 +61,12 @@ nav a {
 
 nav a:hover {
     background-color: rgb(193, 165, 221);
-    border-color: #9966cc;
     transform: scale(1.05);
     animation: pulse 0.6s ease-in-out infinite alternate;
 }
 
 nav a:focus {
     background-color: #afb3e5;
-    color: rgb(73, 51, 153);
     transform: scale(1.05);
 }
 
@@ -75,7 +75,6 @@ nav a:focus {
 .music-divider {
     display: flex;
     justify-content: space-around;
-    color: rebeccapurple;
     font-size: 24px;
 }
 
