@@ -53,3 +53,8 @@ nav a:focus {
     color: rgb(73, 51, 153);
     transform: scale(1.05);
 }
+
+hr {
+    border: none;
+    border-top: 5px double #d9c2f0;
+}
