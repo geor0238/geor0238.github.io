@@ -70,6 +70,24 @@ nav a:focus {
     transform: scale(1.05);
 }
 
+/* cutesy divider lol */
+
+.music-divider {
+    display: flex;
+    justify-content: space-around;
+    color: rebeccapurple;
+    font-size: 24px;
+}
+
+.music-divider span {
+    display: inline-block;
+    animation: float 2s ease-in-out infinite;
+}
+
+.music-divider span:nth-child(odd) {
+    animation-delay: 0.5s;
+}
+
 /* animations */
 
 @keyframes pulse {
