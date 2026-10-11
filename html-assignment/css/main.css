@@ -88,7 +88,7 @@ nav a:focus {
     animation-delay: 0.5s;
 }
 
-/* animations */
+/* animation keyframes */
 
 @keyframes pulse {
     from {
