@@ -4,6 +4,10 @@ body {
     background: #e7e7fc;
 }
 
+header, footer {
+    
+    background-color: #d2ccf3; }
+
 .site-title, .music-divider, .paragraphlink, nav a:hover {
     color: rebeccapurple;
 }
