@@ -57,15 +57,10 @@ h3 {
     font-size: 1.7rem;
 }
 
-nav ul {
-    list-style-type: none;
-    padding-left: 0;
-}
-
 nav li {
     text-transform: uppercase;
     display: inline-block;
-    width: 317px;
+    width: 315px;
     text-align: center;
     font-size: 1.6rem;
     border-right: 1px solid black;
