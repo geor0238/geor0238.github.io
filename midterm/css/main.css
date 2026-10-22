@@ -81,6 +81,10 @@ article img {
     margin-bottom: 20px;
 }
 
+article p {
+    line-height: 1.4;
+}
+
 .facts {
     line-height: 1;
 }
@@ -140,9 +144,7 @@ button {
     font-size: 10px;
     background: transparent;
     border: 1px solid black;
-    color: black;
     padding: 12px;
-    cursor: pointer;
 }
 
 footer {
