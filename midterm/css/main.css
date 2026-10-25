@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+/* * = affects everything */
 }
 
 html {
@@ -18,13 +19,11 @@ body {
     margin: 0 auto;
 }
 
-.wrapper {
-    padding: 0px;
-}
-
 .content {
     padding: 0px 10px;
 }
+
+/* headers  */
 
 header {
     position: relative;
@@ -57,6 +56,8 @@ h3 {
     font-size: 1.7rem;
 }
 
+/* navs  */
+
 nav li {
     text-transform: uppercase;
     display: inline-block;
@@ -75,11 +76,15 @@ nav li:last-child {
     border-right: none;
 }
 
+/* ends text wrapping  */
+
 .clearfix::after {
     content: '';
     display: block;
     clear: both;
 }
+
+/* img alignment  */
 
 article img {
     max-width: 25%;
@@ -92,6 +97,8 @@ article p {
     line-height: 1.4;
 }
 
+/* list  */
+
 .facts {
     line-height: 1;
 }
@@ -99,6 +106,8 @@ article p {
 ul {
     padding-left: 2%;
 }
+
+/* form  */
 
 form {
     border: 1px solid black;
@@ -110,6 +119,8 @@ form div label {
     display: block;
     margin: 8px 0px;
 }
+
+/* (extends form boxes) */
 
 #name, #email, #msg {
     width: 100%;
@@ -137,6 +148,8 @@ button {
     border: 1px solid black;
     padding: 12px;
 }
+
+/* footer */
 
 footer {
     text-align: right;
